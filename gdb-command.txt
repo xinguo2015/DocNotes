@@ -1,0 +1,11 @@
+常用命令	格式	含义	简写
+list		List [开始，结束]	列出文件的代码清单	l
+prit		Print 变量名	打印变量内容	p
+break		Break [行号或函数名]	设置断点	b
+continue	Continue [开始，结束]	继续运行	c
+info		Info 变量名		列出信息	i
+next		Next	下一行	n
+step		Step	进入函数（步入）	S
+display		Display 变量名	显示参数	 
+file		File 文件名（可以是绝对路径和相对路径）		加载文件	 
+run			Run args	运行程序	

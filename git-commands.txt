@@ -1,0 +1,23 @@
+git的中文help --- http://git-scm.com/book/zh/v2
+
+安装git
+	sudo apt-get install git
+
+常用命令
+
+git init 创建git仓库
+
+git status 查看状态
+
+vim .gitignore文件，让git忽略一些文件。例如
+/××/×.a  忽略所有的.a文件
+/aa/bb      忽略目录 aa/bb
+
+git commit -m "提交的信息"
+git add some.file 暂存文件
+git commit --amend 补充提交，该提交会覆盖上次提交
+
+git reset HEAD <file> 取消对file文件的暂存
+git checkout -- <file> 从仓库里检出文件file，覆盖在编辑的file
+
+

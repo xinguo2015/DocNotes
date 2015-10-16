@@ -1,0 +1,12 @@
+1.	首先，添加源和KEY
+
+	wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+
+2.	编辑google.list
+	
+	sudo gedit /etc/apt/sources.list.d/google.list 
+
+3.	然后更新源和安装Chrome 
+
+	sudo apt-get update  
+	sudo apt-get install google-chrome-stable 
